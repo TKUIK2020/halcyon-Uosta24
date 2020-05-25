@@ -1,0 +1,104 @@
+<html>
+<title>Лаба 9</title>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=LUCIDA+SANS+UNICODE|" rel="stylesheet">
+<style>
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tg {
+    height: 25px;
+    width: 25px;
+}
+
+.main {
+    height: 400px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.end{
+width: 40px; 
+height: 40px;
+background:#3dc9b3 ;
+border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'LUCIDA SANS UNICODE';
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+#input {
+    margin-right: 5px;
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'LUCIDA SANS UNICODE';
+    color: white;
+    font-size: 20px;
+}
+
+.success {
+    border-color: yellowgreen;
+}
+
+.error {
+    border-color: darkred;
+}
+
+.sendButton {
+    border-radius: 2px;
+    border: none;
+    width:  150px;
+    height: 60px;
+    background-color: #3dc9b3;
+    text-align: center;
+    font-family: 'LUCIDA SANS UNICODE';
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="main">
+        <img src="telegram.png" class="tg">
+        <p class="text">subscribe to stay in the loop</p>
+        <form id="form">
+            <input type="text" name="" id="input" onchange="change()">
+            <button class="sendButton"> send </button>
+        </form>
+		<p>   </p>
+		<p>   </p>
+		<p>   </p>
+		<p class="end"><font color="white">ᐁ</font></</p>
+    </div>
+	<script src="JS"></script>
+</body>
+
+</html>
